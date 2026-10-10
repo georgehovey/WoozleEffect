@@ -22,7 +22,7 @@
   --ink-soft: #5A4C3E;
   --accent: #7A1F2E;         /* the burgundy of the opening titles */
   --rule: #CDBB9C;
-  --panel: rgba(241, 231, 212, 0.97);
+  --panel: rgba(241, 231, 212, 0.66);   /* the map shows faintly through the text */
   --measure: 34em;
   --fade: 800ms;
 }
@@ -83,8 +83,8 @@ body.after-film .world-ai  { opacity: 1; }
 }
 
 @media (max-width: 47.99em) {
-  /* phones: a trace of the illustration shows through */
-  .panel { --panel: rgba(241, 231, 212, 0.90); }
+  /* phones: no margins, so the map shows through a little more */
+  .panel { --panel: rgba(241, 231, 212, 0.60); }
 }
 @media (min-width: 48em) {
   body { font-size: 20px; }
